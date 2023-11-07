@@ -11,7 +11,8 @@
             DifferentTypes(100);
             DifferentTypes('M');
             DifferentTypes(true);
-            SwitchExpression(12);
+            SwitchExpression(14);
+            SwitchTuplePattern(10, "Hearts");
         }
 
         // goto case, goto default
@@ -96,13 +97,45 @@
                 11 => "Jack",
                 12 => "Queen",
                 13 => "King",
-                < 1 => "InvalidCards",
-                < 11 => "Number Cards",
-                > 13 => "Invalid Cards",
+                > 1 and < 11 => "Number Cards", // can only use Logical and , cant use Logical or
+                _ => "Invalid Cards" // _ is like a Default for a Normal Switch
             };
 
             Console.WriteLine(cardName);
 
         }
+
+        static void SwitchTuplePattern(int cardNumber,string suite)
+        {
+            // Tuple can pass multiple values to a method through a single parameter
+            string cardName = (cardNumber, suite) switch
+            {
+                (13,"Spades") => "King of Spades",
+                (12, "Spades") => "Queen of Spades",
+                (11, "Spades") => "Jack of Spades",
+                ( >= 1 and <= 10, "Spades") => $"Spades {cardNumber}",
+                (13, "Hearts") => "King of Hearts",
+                (12, "Hearts") => "Queen of Hearts",
+                (11, "Hearts") => "Jack of Hearts",
+                ( >= 1 and <= 10, "Hearts") => $"Hearts {cardNumber}",
+                (13, "Clover") => "King of Clover",
+                (12, "Clover") => "Queen of Clover",
+                (11, "Clover") => "Jack of Clover",
+                ( >= 1 and <= 10, "Clover") => $"Clover {cardNumber}",
+                (13, "Diamond") => "King of Diamond",
+                (12, "Diamond") => "Queen of Diamond",
+                (11, "Diamond") => "Jack of Diamond",
+                ( >= 1 and <= 10, "Diamond") => $"Diamond {cardNumber}",
+
+                (_, _) => "Invalid Cards",
+
+
+
+            };
+
+            Console.WriteLine(cardName);
+        }
+
+
     }
 }
