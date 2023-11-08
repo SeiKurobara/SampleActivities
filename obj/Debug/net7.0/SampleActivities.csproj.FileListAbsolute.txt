@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\bin\Debug\net7.0\SampleActivities.exe
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\bin\Debug\net7.0\SampleActivities.deps.json
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\bin\Debug\net7.0\SampleActivities.runtimeconfig.json
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\bin\Debug\net7.0\SampleActivities.dll
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\bin\Debug\net7.0\SampleActivities.pdb
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.AssemblyInfo.cs
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.dll
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\refint\SampleActivities.dll
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.pdb
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.genruntimeconfig.cache
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\ref\SampleActivities.dll

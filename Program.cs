@@ -1,10 +1,14 @@
-﻿namespace SampleActivities
+﻿using static SampleActivities.SampleActivitiesInner.sampleClass;
+using static System.Console;
+
+namespace SampleActivities;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        WriteLine("Hello, World!");
+        sampleMethod();
+
     }
 }
