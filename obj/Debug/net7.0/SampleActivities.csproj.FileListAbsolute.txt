@@ -12,3 +12,4 @@ C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\refint\Sa
 C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.pdb
 C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.genruntimeconfig.cache
 C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\ref\SampleActivities.dll
+C:\Users\user\Desktop\C#\InANutshell\SampleActivities\obj\Debug\net7.0\SampleActivities.sourcelink.json
