@@ -12,6 +12,7 @@ internal class Program
     // Ref Modifier
     // Out Modifier
     // Params Modifier
+    // Null Coalescing Operator
 
     static void Main(string[] args)
     {
@@ -37,6 +38,24 @@ internal class Program
 
         WriteLine($"The output for paramSums is {paramSums}");
         // Params Modifier
+
+        // Null Coalescing Operator
+        // ?? Read as if the operand to the left is null then give me an another value;
+        string nullSample = null;
+        string nullCheck = nullSample ?? "Its null but it gave me this value";
+
+        WriteLine(nullCheck);
+
+        // Null Coalescing Assignment operator
+        string someDefault = "someDefault";
+        string myVariable = null;
+        myVariable ??= someDefault;
+        // is equivalent to 
+        //if (myVariable == null) myVariable = someDefault;
+
+        WriteLine(myVariable);
+        // Null Coalescing Operator
+
         WriteLine("Hello, World!");
         sampleMethod();
     }
