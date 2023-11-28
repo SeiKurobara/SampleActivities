@@ -15,3 +15,10 @@
         Out Modifier
         Params Modifier
         Null Coalescing Operator
+## Activity 4
+        Fields
+        Expression-Embodied Method
+        Local Methods
+        Constructor Overload
+        Deconstructor
+        Simple way of Writing a Constructor
